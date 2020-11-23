@@ -1,0 +1,22 @@
+{
+    // Place your settings in this file to overwrite default and user settings.
+    "javascript.validate.enable": true,
+    "flow.useNPMPackagedFlow": true,
+    "editor.formatOnSave": true,
+    "prettier.useTabs": true,
+    "prettier.trailingComma": "all",
+    "prettier.singleQuote": true,
+    "editor.detectIndentation": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "temp": true,
+        "release": true,
+        "ios": true,
+        "android": true,
+        "coverage": true
+    }
+}

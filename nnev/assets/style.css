@@ -1,0 +1,69 @@
+* {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.row {
+  flex: 1;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: 'column';
+}
+
+#mainCanvas {
+  flex: 0 0 60%;
+}
+
+#humanstats {
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+
+#controllers {
+  flex: 1;
+  font-family: monospace;
+  padding-left: 50px;
+}
+
+#chart {
+  margin-bottom: 5px;
+}
+
+div.row button {
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+div.row .button1 {
+  background-color: rgb(81, 180, 81);
+  margin: 0px 260px;
+}
+
+div.row .button2 {
+  background-color: rgb(93, 142, 206);
+  margin: 0px -140px;
+}
+
+div.row textarea {
+  margin: -5px 12.5px;
+}
